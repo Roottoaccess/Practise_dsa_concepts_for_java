@@ -58,8 +58,17 @@ public class Array_List extends Thread{
 
         System.out.println("After reversing the list: "+list);
 
+        System.out.println();
+        System.out.println(list);
+
         /* Calling the method */
         Experiment();
+
+        System.out.println(Collections.max(list));
+
+        /* Updating by  */
+        list.set(5, 555);
+        System.out.println(list);
     }
 
     public static void Experiment(){
